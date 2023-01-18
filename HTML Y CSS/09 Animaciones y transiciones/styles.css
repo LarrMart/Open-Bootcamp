@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-modern {
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+    border: none;
+    color: #ddd;
+    background-color: rgb(87, 63, 63);
+    transition: all 0.4s;
+}
+
+.btn-modern:hover {
+    transform: translateY(-5px);
+    box-shadow: rgb(156, 109, 109) 0 0 10px 5px;
+    background-color: rgb(126, 43, 43);
+    color: rgb(231, 169, 169);
+    cursor: pointer;
+}
+
+.tooltip {
+    position: absolute;
+    opacity: 0;
+    top: -60px;
+    left: 50%;
+    width: 200%;
+    transform: translate(-50%, 0);
+    background-color: gray;
+    transition: all 0.2s;
+    
+    
+}
+
+.btn {
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+    color: whitesmoke;
+    background-color: orangered;
+    border: none;
+    transition: all 0.2s;
+    position: relative;
+}
+
+.btn:hover {
+    background-color: rgb(145, 230, 130);
+    cursor: pointer;
+}
+
+.btn:hover .tooltip {
+    opacity: 1;
+    transition-delay: 5s;
+}
+

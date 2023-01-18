@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emulando formulario de Dribbble</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <main class="authentication">
+       <h2 class="title">Regístrate en los formularios</h2> 
+       <div class="authentication-with-social-media">
+           <button class="google-button">
+                <span class="google-icon">
+                    <img src="imgs/google-icon.jpg" alt="Logo de google">
+                </span>
+                <span class="message">
+                    Registrarse con Google
+                </span>
+           </button>
+           <button class="twitter-button">
+                <img src="imgs/twitter-icon2.png" alt="Logo de Twitter">    
+           </button>
+        </div>
+        <hr class="separator">
+        <form class="form" action="">
+            <div class="user">
+                <div class="name">
+                    <label for="name-input" class="name-label">Name</label>
+                    <input type="text" id="name-input" name="name-input">
+                </div>
+                <div class="username">
+                    <label for="username-input" class="username-label">Username</label>
+                    <input type="text" id="username-input" name="username-input">
+                </div>
+            </div>
+            <div class="user-email">
+                <label for="email" class="email-label">Email</label>
+                <input type="text" id="email">
+            </div>
+            <div class="user-password">
+                <label for="pass" class="pass-label">Password</label>
+                <input type="text" id="pass" name="pass">
+            </div>
+            <div class="terms">
+                <input type="checkbox" name="" id="term"> 
+                <label for="term">Acepto las condiciones del servicio</label>
+            </div>
+            <button class="submit">Enviar</button>
+        </form>
+    </main>
+</body>
+</html>

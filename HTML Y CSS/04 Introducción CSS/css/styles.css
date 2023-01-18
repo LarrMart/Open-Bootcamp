@@ -1,0 +1,7 @@
+#elemento-1, #supermercado-1 {
+    color: red;
+}
+
+section > ul > li:first-child {
+    font-size: 2rem;
+}

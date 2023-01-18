@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1px;
+    background-color: #161717;
+}
+
+.authentication {
+    width: 500px;
+    margin: 80px auto 0 auto;
+}
+
+.title {
+    margin-bottom: 26px;
+    color: white;
+}
+
+.authentication-with-social-media {
+    display:flex;
+    margin-bottom: 40px;
+}
+
+button {
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.google-button {
+    width: 250px;
+    height: 40px;
+    border: none;
+    display: flex;
+    align-items: center;
+    background-color: #1A73E8;
+    color: white;
+    padding-left: 2px;
+    border-radius: 5px;
+}
+
+.google-button:hover {
+    opacity: 0.75;
+}
+
+.google-icon {
+    width: 36px;
+    height: 36px;
+    padding: 6px;
+    background-color: white;
+    border-radius: 2px 0 0 2px;
+}
+
+.message {
+    margin: auto;
+}
+
+.google-icon img {
+    max-width: 100%;
+}
+
+
+
+.twitter-button {
+    width: 40px;
+    height: 40px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    background-color: #eee;
+    
+}
+
+.twitter-button:hover{
+    background-color: #ddd;
+}
+
+.twitter-button img {
+    max-width: 100%;
+}
+
+.separator {
+    position: relative;
+    overflow: visible;
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    border-color: rgb(195, 184, 184);
+    color: gray;
+}
+
+.separator::after {
+    content: "O";
+    position: absolute;
+    padding: 10px;
+    background-color: #161717;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form {
+    margin-top: 40px;
+}
+
+.user {
+    justify-content: space-between;
+}
+
+input {
+    font-size: 14pt;
+}
+
+.user {
+    display: flex;
+}
+
+.name, .username, .user-email, .user-password {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.terms {
+    margin-bottom: 25px;
+    color: white;
+}
+
+.name, .username {
+    width: 48%
+}
+
+.username-label, .name-label, .email-label, .pass-label, .terms {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+#username-input, #name-input, #pass, #email {
+    border-radius: 5px;
+    outline: none;
+    border: solid 1px transparent;
+    background-color: #212121;
+    padding: 10px 20px;
+    color: white;
+}
+
+#username-input:hover, #name-input:hover, #pass:hover, #email:hover {
+    background-color: #454045;
+    border: solid 1px #212121;
+    box-shadow: 0 0 4px #eb50ff4f;
+}
+
+#username-input:focus, #name-input:focus, #pass:focus, #email:focus {
+    background-color: #454540;
+    border: solid 1px #212121;
+    box-shadow: 0 0 4px #eb50ff4f;
+   
+}
+
+
+.submit {
+    margin-top: 20px;
+    font-size: 14pt;
+    font-weight: bold;
+    background-color: #ea4c89;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.submit:hover {
+    opacity: 0.75;
+}
+
+
+
+
+
+
+
+
